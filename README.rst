@@ -1,3 +1,24 @@
+Updates in 2023.5: Use yt-dlp, instead of youtube-dl
+-----------------
+- **This is merely a minor update that replace youtube-dl with yt-dlp**.
+- The context for this update is that in the year of 2023, downloading with youtube-dl is corrupted sometimes especially with newly videos on youtube.
+yt-dlp seems support more videos nowadays and add more features, and the use of youtube-dl and yt-dlp look alike since the yt-dlp inherited from youtube-dl.
+- with new backend, pafy works fine in fetching the video info in 2023.
+
+
+Installation in 2023.5
+----------------------
+- you can download and install using::
+    python setup.py install
+
+
+- you may also install using pip::
+    pip install git+https://github.com/clipdalle/pafy_2023.git
+
+
+
+***********
+
 .. image:: https://img.shields.io/pypi/v/Pafy.svg
     :target: https://pypi.python.org/pypi/pafy
 .. image:: https://img.shields.io/pypi/dm/Pafy.svg
